@@ -2,12 +2,12 @@ import type { Meta, StoryObj } from "@storybook/html-vite";
 import { siteFrame } from "./helpers";
 
 const meta: Meta = {
-  title: "Found Sites/Review Culture/True Reviews",
+  title: "Hover Effects/True Reviews — chiprate.envy.nu",
 };
 export default meta;
 
 export const LinkHover: StoryObj = {
-  name: "Link hover — red to pink, crosshair cursor",
+  name: "Hover",
   render: () =>
     siteFrame({
       background: "#000000",

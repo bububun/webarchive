@@ -1,6 +1,6 @@
 # webarchive
 
-Interactive UI snippets recovered from old personal sites, rebuilt as real HTML/CSS so the interaction states — link hovers, cursor changes, and a couple of period-authentic CSS typos — actually work live in Storybook, instead of sitting as static swatches.
+Interactive UI snippets recovered from old personal sites, rebuilt as real HTML/CSS so the interaction states actually work live in Storybook, instead of sitting as static swatches. Stories are grouped by UI pattern (Hover Effects, Visited States, ...), and each one is named for the site it came from.
 
 Companion to two Paper boards:
 - **Site Archaeology** — sites Laura built and ran herself
@@ -13,10 +13,9 @@ npm install
 npm run storybook
 ```
 
-## Notes on accuracy
+## Groups
 
-A few of these reproduce real bugs from the original CSS rather than "fixing" them:
-- **Revolution** — `a:hover{color:#white}` isn't a valid color, so hover never visibly did anything.
-- **I Play Piano Clique** — `a:hover{font-color:#ffffff}` — `font-color` isn't a real property, so the intended white-on-hover silently never fired.
+- **Hover Effects** — El Scorcho, absolute-terror.net, Bloodlust, Charm Attack!, Akkou, True Reviews
+- **Visited States** — Riot Girls (a:visited inverts to a solid fill, rather than just dimming)
 
-Riot Girls' `a:visited` state is shown as a separate static swatch rather than a real `:visited` selector, since browsers restrict how `:visited` can be styled (and block reading it back) for privacy reasons.
+Two effects that turned out to be broken in the original CSS (an invalid `#white` hover color, and a `font-color` typo instead of `color`) were left out rather than faithfully reproduced — this library is meant to be a working reference, not an archive of every bug.

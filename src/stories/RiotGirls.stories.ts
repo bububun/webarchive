@@ -2,12 +2,12 @@ import type { Meta, StoryObj } from "@storybook/html-vite";
 import { siteFrame } from "./helpers";
 
 const meta: Meta = {
-  title: "Site Archaeology/Riot Girls",
+  title: "Visited States/Riot Girls — fizzat.com/riotgirls",
 };
 export default meta;
 
 export const LinkVisited: StoryObj = {
-  name: "Visited state — inverts to fill",
+  name: "Visited",
   render: () =>
     siteFrame({
       background: "#000000",

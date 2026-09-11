@@ -2,12 +2,12 @@ import type { Meta, StoryObj } from "@storybook/html-vite";
 import { siteFrame } from "./helpers";
 
 const meta: Meta = {
-  title: "Found Sites/Review Culture/Akkou",
+  title: "Hover Effects/Akkou — akkou.tripod.com",
 };
 export default meta;
 
 export const LinkHover: StoryObj = {
-  name: "Link hover — pink, n-resize cursor",
+  name: "Hover",
   render: () =>
     siteFrame({
       background: "#ffffc6",

@@ -2,12 +2,12 @@ import type { Meta, StoryObj } from "@storybook/html-vite";
 import { siteFrame } from "./helpers";
 
 const meta: Meta = {
-  title: "Site Archaeology/The Diary/Charm Attack!",
+  title: "Hover Effects/Charm Attack! — fizzat.com/weblog",
 };
 export default meta;
 
 export const LinkHover: StoryObj = {
-  name: "Link hover — inverts to filled amber, overline",
+  name: "Hover",
   render: () =>
     siteFrame({
       background: "#ffffff",
