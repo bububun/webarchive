@@ -15,7 +15,7 @@ export const LinkHover: StoryObj = {
         /* Original CSS: font-family: fixedSys — a Windows bitmap font with no
            real web equivalent. "monospace" here lets the OS pick its own
            fixed-width default rather than falsely claiming a visual match. */
-        a.tr { color: #ff0000; text-decoration: none; font-family: monospace; font-size: 14px; cursor: crosshair; }
+        a.tr { color: #ff0000; text-decoration: none; font-family: monospace; font-size: 14px; }
         a.tr:hover { color: #ffc0cb; cursor: crosshair; }
       `,
       bodyHtml: `<a class="tr" href="#">read a review</a>`,

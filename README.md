@@ -17,5 +17,9 @@ npm run storybook
 
 - **Hover Effects** — El Scorcho, absolute-terror.net, Bloodlust, Charm Attack!, Akkou, True Reviews
 - **Visited States** — Riot Girls (a:visited inverts to a solid fill, rather than just dimming)
+- **Scrollbars** — old IE's non-standard `scrollbar-*` properties, remapped onto `::-webkit-scrollbar` (Chromium/Safari only). Eight recipes: I Play Piano Clique, El Scorcho, absolute-terror.net, Bloodlust, Riot Girls, Charm Attack!, Akkou, and the Smile-era Hi-Fi Killer.
+- **Window Chrome** — Bloodlust's chromeless popup, rebuilt as a real fake-OS window with a working close button.
 
-Two effects that turned out to be broken in the original CSS (an invalid `#white` hover color, and a `font-color` typo instead of `color`) were left out rather than faithfully reproduced — this library is meant to be a working reference, not an archive of every bug.
+Two hover effects that turned out to be broken in the original CSS (an invalid `#white` hover color, and a `font-color` typo instead of `color`) were left out rather than faithfully reproduced — this library is meant to be a working reference, not an archive of every bug.
+
+Placeholder content is used wherever the original text was personal rather than structural (e.g. Charm Attack's scrollbar demo uses placeholder diary entries, not the real ones).

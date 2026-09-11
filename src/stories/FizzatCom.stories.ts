@@ -12,7 +12,7 @@ export const LinkHover: StoryObj = {
     siteFrame({
       background: "#ffffff",
       extraCss: `
-        a.fz { color: #111111; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; }
+        a.fz { color: #000000; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; }
         a.fz:hover { color: #ff0000; font-weight: bold; cursor: crosshair; }
       `,
       bodyHtml: `
