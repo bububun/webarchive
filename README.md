@@ -19,6 +19,7 @@ npm run storybook
 - **Visited States** — Riot Girls (a:visited inverts to a solid fill, rather than just dimming)
 - **Scrollbars** — old IE's non-standard `scrollbar-*` properties, remapped onto `::-webkit-scrollbar` (Chromium/Safari only). Eight recipes: I Play Piano Clique, El Scorcho, absolute-terror.net, Bloodlust, Riot Girls, Charm Attack!, Akkou, and the Smile-era Hi-Fi Killer.
 - **Window Chrome** — Bloodlust's chromeless popup, rebuilt as a real fake-OS window with a working close button.
+- **Ornamental Frames** — sparkle/star corner brackets around a content box, a common Y2K-era decoration. Recreated as an inline SVG star rather than a traced copy of any specific site's GIF sprite.
 
 Two hover effects that turned out to be broken in the original CSS (an invalid `#white` hover color, and a `font-color` typo instead of `color`) were left out rather than faithfully reproduced — this library is meant to be a working reference, not an archive of every bug.
 
